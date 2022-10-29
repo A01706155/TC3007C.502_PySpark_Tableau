@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1005.1835                               -->
+<workbook original-version='18.1' source-build='2022.3.0 (20223.22.1005.1835)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='region25_noNull' inline='true' name='federated.1odeita171ct9q1c1ha760m9v6tr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='region25_noNull' name='textscan.0h83yz61ktv51g1dmxodq03isjf0'>
+            <connection class='textscan' directory='C:/Users/Manolo/Downloads/car_sales' filename='region25_noNull.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0h83yz61ktv51g1dmxodq03isjf0' name='region25_noNull.csv' table='[region25_noNull#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_MX' separator=','>
+            <column datatype='string' name='brand' ordinal='0' />
+            <column datatype='string' name='name' ordinal='1' />
+            <column datatype='string' name='bodyType' ordinal='2' />
+            <column datatype='string' name='color' ordinal='3' />
+            <column datatype='string' name='fuelType' ordinal='4' />
+            <column datatype='integer' name='mileage' ordinal='5' />
+            <column datatype='string' name='transmission' ordinal='6' />
+            <column datatype='integer' name='power' ordinal='7' />
+            <column datatype='integer' name='price' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0h83yz61ktv51g1dmxodq03isjf0' name='region25_noNull.csv' table='[region25_noNull#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_MX' separator=','>
+            <column datatype='string' name='brand' ordinal='0' />
+            <column datatype='string' name='name' ordinal='1' />
+            <column datatype='string' name='bodyType' ordinal='2' />
+            <column datatype='string' name='color' ordinal='3' />
+            <column datatype='string' name='fuelType' ordinal='4' />
+            <column datatype='integer' name='mileage' ordinal='5' />
+            <column datatype='string' name='transmission' ordinal='6' />
+            <column datatype='integer' name='power' ordinal='7' />
+            <column datatype='integer' name='price' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[region25_noNull.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_MX&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brand</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[brand]</local-name>
+            <parent-name>[region25_noNull.csv]</parent-name>
+            <remote-alias>brand</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[region25_noNull.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bodyType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bodyType]</local-name>
+            <parent-name>[region25_noNull.csv]</parent-name>
+            <remote-alias>bodyType</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>color</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[color]</local-name>
+            <parent-name>[region25_noNull.csv]</parent-name>
+            <remote-alias>color</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fuelType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[fuelType]</local-name>
+            <parent-name>[region25_noNull.csv]</parent-name>
+            <remote-alias>fuelType</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mileage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mileage]</local-name>
+            <parent-name>[region25_noNull.csv]</parent-name>
+            <remote-alias>mileage</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>transmission</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[transmission]</local-name>
+            <parent-name>[region25_noNull.csv]</parent-name>
+            <remote-alias>transmission</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>power</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[power]</local-name>
+            <parent-name>[region25_noNull.csv]</parent-name>
+            <remote-alias>power</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[price]</local-name>
+            <parent-name>[region25_noNull.csv]</parent-name>
+            <remote-alias>price</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='region25_noNull.csv' datatype='table' name='[__tableau_internal_object_id__].[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]' role='measure' type='quantitative' />
+      <column caption='Body Type' datatype='string' name='[bodyType]' role='dimension' type='nominal' />
+      <column caption='Brand' datatype='string' name='[brand]' role='dimension' type='nominal' />
+      <column caption='Color' datatype='string' name='[color]' role='dimension' type='nominal' />
+      <column caption='Fuel Type' datatype='string' name='[fuelType]' role='dimension' type='nominal' />
+      <column caption='Mileage' datatype='integer' name='[mileage]' role='measure' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Power' datatype='integer' name='[power]' role='measure' type='quantitative' />
+      <column caption='Price' datatype='integer' name='[price]' role='measure' type='quantitative' />
+      <column caption='Transmission' datatype='string' name='[transmission]' role='dimension' type='nominal' />
+      <column-instance column='[color]' derivation='None' name='[none:color:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Manolo/Documents/My Tableau Repository/Datasources/region25_noNull.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='10/29/2022 07:49:04 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='region25_noNull' increment-value='%null%' refresh-type='create' rows-inserted='1513200' timestamp-start='2022-10-29 19:48:58.151' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>brand</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[brand]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>brand</remote-alias>
+              <ordinal>0</ordinal>
+              <family>region25_noNull.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>105</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>region25_noNull.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2510</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bodyType</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[bodyType]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bodyType</remote-alias>
+              <ordinal>2</ordinal>
+              <family>region25_noNull.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>color</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[color]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>color</remote-alias>
+              <ordinal>3</ordinal>
+              <family>region25_noNull.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fuelType</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[fuelType]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fuelType</remote-alias>
+              <ordinal>4</ordinal>
+              <family>region25_noNull.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mileage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mileage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mileage</remote-alias>
+              <ordinal>5</ordinal>
+              <family>region25_noNull.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>997</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>transmission</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[transmission]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>transmission</remote-alias>
+              <ordinal>6</ordinal>
+              <family>region25_noNull.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>power</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[power]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>power</remote-alias>
+              <ordinal>7</ordinal>
+              <family>region25_noNull.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>735</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>price</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>price</remote-alias>
+              <ordinal>8</ordinal>
+              <family>region25_noNull.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6615</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[region25_noNull.csv_EB1123840D084D8C92635C788326ECAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:color:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Красный&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Бежевый&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Желтый&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Серый&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Оранжевый&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Зеленый&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Белый&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Золотистый&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Синий&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Фиолетовый&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Розовый&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Коричневый&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Бордовый&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Черный&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Серебристый&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Голубой&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Mexico&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='region25_noNull.csv' id='region25_noNull.csv_EB1123840D084D8C92635C788326ECAE'>
+            <properties context=''>
+              <relation connection='textscan.0h83yz61ktv51g1dmxodq03isjf0' name='region25_noNull.csv' table='[region25_noNull#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_MX' separator=','>
+                  <column datatype='string' name='brand' ordinal='0' />
+                  <column datatype='string' name='name' ordinal='1' />
+                  <column datatype='string' name='bodyType' ordinal='2' />
+                  <column datatype='string' name='color' ordinal='3' />
+                  <column datatype='string' name='fuelType' ordinal='4' />
+                  <column datatype='integer' name='mileage' ordinal='5' />
+                  <column datatype='string' name='transmission' ordinal='6' />
+                  <column datatype='integer' name='power' ordinal='7' />
+                  <column datatype='integer' name='price' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='region25_noNull' name='federated.1odeita171ct9q1c1ha760m9v6tr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1odeita171ct9q1c1ha760m9v6tr'>
+            <column-instance column='[price]' derivation='Avg' name='[avg:price:qk]' pivot='key' type='quantitative' />
+            <column caption='Body Type' datatype='string' name='[bodyType]' role='dimension' type='nominal' />
+            <column-instance column='[bodyType]' derivation='None' name='[none:bodyType:nk]' pivot='key' type='nominal' />
+            <column caption='Price' datatype='integer' name='[price]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1odeita171ct9q1c1ha760m9v6tr].[none:bodyType:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1odeita171ct9q1c1ha760m9v6tr].[avg:price:qk]</rows>
+        <cols>[federated.1odeita171ct9q1c1ha760m9v6tr].[none:bodyType:nk]</cols>
+      </table>
+      <simple-id uuid='{7AEB717D-618F-4296-A7B4-ED4B1C08DB3D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1odeita171ct9q1c1ha760m9v6tr].[none:bodyType:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1odeita171ct9q1c1ha760m9v6tr].[:Measure Names]</field>
+            <field>[federated.1odeita171ct9q1c1ha760m9v6tr].[none:bodyType:nk]</field>
+            <field>[federated.1odeita171ct9q1c1ha760m9v6tr].[none:brand:nk]</field>
+            <field>[federated.1odeita171ct9q1c1ha760m9v6tr].[none:fuelType:nk]</field>
+            <field>[federated.1odeita171ct9q1c1ha760m9v6tr].[none:name:nk]</field>
+            <field>[federated.1odeita171ct9q1c1ha760m9v6tr].[none:transmission:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{613C55F6-20CB-4E27-AF90-A60700D7353E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
